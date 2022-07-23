@@ -30,7 +30,7 @@ jobs:
       with:
         image: karusalaanil/springboot-image-new
         tags: myfirstDockerExample
-        registry: registry-url.io
+        registry: docker.io
         dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
